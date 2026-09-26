@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murali DevOps App</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f6fc;
+            text-align: center;
+        }
+
+        header {
+            background: #1f4e79;
+            color: white;
+            padding: 25px;
+        }
+
+        .container {
+            margin: 60px auto;
+            background: white;
+            width: 80%;
+            max-width: 600px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            color: #1f4e79;
+        }
+
+        button {
+            background: #1f4e79;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #163a5c;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Murali DevOps Application</h1>
+        <p>HTML Application for Docker & Jenkins Practice</p>
+    </header>
+
+    <div class="container">
+        <h1>Welcome 👋</h1>
+
+        <p>
+            This is a simple HTML application running successfully.
+        </p>
+
+        <p>
+            <b>Technology:</b> HTML + CSS + JavaScript
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+        <p id="message"></p>
+    </div>
+
+    <footer>
+        © 2026 Murali DevOps
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerHTML =
+                "Application is working successfully! 🚀";
+        }
+    </script>
+
+</body>
+</html>
